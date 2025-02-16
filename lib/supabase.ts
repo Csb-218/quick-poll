@@ -1,6 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 
-// Ensure environment variables are available
+
 if (!process.env.NEXT_PUBLIC_SUPABASE_URL) {
   throw new Error('Missing environment variable: NEXT_PUBLIC_SUPABASE_URL');
 }
